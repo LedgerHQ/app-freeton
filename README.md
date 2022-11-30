@@ -1,3 +1,7 @@
+:warning: This repository contains older versions of the app Everscale and is now read only. :warning:
+
+Newer versions' source can be found [here](https://github.com/LedgerHQ/app-everscale).
+
 # Ledger Free TON app
 
 ## Overview
@@ -14,11 +18,11 @@ Install prerequisite and switch to a Nano S dev-env:
 sudo apt install gcc make gcc-multilib g++-multilib libncurses5
 sudo apt install python3.8-dev libudev-dev libusb-1.0-0-dev
 
-# install pip 
+# install pip
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3.8 get-pip.py && pip3.8 install virtualenv
 
 # (s or x, depending on your device)
-source prepare-devenv.sh s 
+source prepare-devenv.sh s
 ```
 
 To fix problems connecting to Ledger follow this [guide](https://support.ledger.com/hc/en-us/articles/115005165269-Fix-connection-issues)
